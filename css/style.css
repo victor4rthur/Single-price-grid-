@@ -1,0 +1,83 @@
+body {
+  font-family: 'Karla', sans-serif;
+}
+h1{
+  color:  #0c7b93;
+}
+.line-green{color:#baf1a1;
+
+}
+.line-gray{
+  color: gray;
+}
+.btn {
+  box-shadow: 0 10px 14px -7px #276873;
+  background-color: #baf1a1;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Karla', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 13px 32px;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 170px;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+  background-color: #408c99;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.right {
+  position: absolute;
+  color: white;
+  background-color: #0c7b93;
+  width: 20%;
+  height: 190px;
+  padding: 40px;
+}
+
+.left {
+  position: absolute;
+  left: 340px;
+  color: white;
+  background-color: #00a8cc;
+  width: 20%;
+  height: 190px;
+  padding: 40px;
+}
+
+.valor {
+  font-size: 2em;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.periodo {
+  margin-top: 35px;
+  margin-left: 70px;
+  font-weight: 50;
+  margin-bottom: 0;
+}
+
+.full {
+  margin-top: 0;
+}
+.top{
+  width: 604px;
+  height: 150px;
+  padding: 40px;
+  background-color: white;
+  box-shadow: 10px 10px 14px -7px gray;
+
+}
